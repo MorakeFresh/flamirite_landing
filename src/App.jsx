@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from '/logo.jpg'
 import video from "/promo-video.mp4"
-import { FaWhatsapp } from "react-icons/fa";
+import {FaWhatsapp} from "react-icons/fa";
 
 export default function App() {
     return (
@@ -15,7 +15,10 @@ export default function App() {
                             <p className='text-sm text-gray-400 italic'>Your Career Starts Here</p>
                         </div>
                     </div>
-                    <a href='#form' className='bg-yellow-500 hover:bg-yellow-600 text-black font-bold px-6 py-2 rounded-full transition'>
+                    <a
+                        href='#form'
+                        className="bg-yellow-500 hover:bg-yellow-600 text-black font-bold px-4 sm:px-6 py-2 sm:py-3 rounded-full transition text-sm sm:text-base"
+                    >
                         Apply Now
                     </a>
                 </div>
@@ -25,12 +28,14 @@ export default function App() {
 
                 <section className='grid md:grid-cols-2 gap-10 items-center mt-10'>
                     <div>
-                        <span className="inline-block bg-yellow-500 text-black text-xs font-bold px-3 py-1 rounded-full uppercase mb-3">Next Intake: Sept 01, 2025</span>
+                        <span
+                            className="inline-block bg-yellow-500 text-black text-xs font-bold px-3 py-1 rounded-full uppercase mb-3">Next Intake: Sept 01, 2025</span>
                         <h2 className='text-5xl font-extrabold mb-6 text-yellow-400 leading-tight'>
                             Become a Certified Casino Dealer
                         </h2>
                         <p className='mb-4 text-lg text-gray-300'>
-                            Train with casino experts, master the tables, and unlock opportunities at top casinos worldwide.
+                            Train with casino experts, master the tables, and unlock opportunities at top casinos
+                            worldwide.
                         </p>
                         <ul className='list-disc ml-6 space-y-2 text-gray-200'>
                             <li>Blackjack, Poker, Roulette & Baccarat Mastery</li>
@@ -38,7 +43,8 @@ export default function App() {
                             <li>Security, Compliance & High-Standards Training</li>
                             <li>Career Coaching & Guaranteed Interviews</li>
                         </ul>
-                        <a href='#form' className='mt-6 inline-block bg-yellow-500 text-black font-bold px-6 py-3 rounded-lg shadow hover:bg-yellow-600 transition'>
+                        <a href='#form'
+                           className='mt-6 inline-block bg-yellow-500 text-black font-bold px-6 py-3 rounded-lg shadow hover:bg-yellow-600 transition'>
                             Secure Your Seat
                         </a>
                     </div>
@@ -95,7 +101,8 @@ export default function App() {
                         {/* Testimonial */}
                         <div className="bg-black p-6 rounded-xl shadow-lg border-l-4 border-yellow-500">
                             <p className="italic text-lg text-gray-300">
-                                "This course helped me land a casino job immediately after graduation. I had no experience, just ambition."
+                                "This course helped me land a casino job immediately after graduation. I had no
+                                experience, just ambition."
                             </p>
                             <p className="mt-4 font-semibold text-yellow-400">— Dimpho, Graduate</p>
                         </div>
@@ -106,7 +113,7 @@ export default function App() {
                                 src={video}
                                 controls
                                 className="w-full rounded-lg shadow-lg border border-yellow-500"
-                                style={{ maxHeight: '320px', objectFit: 'contain' }}
+                                style={{maxHeight: '320px', objectFit: 'contain'}}
                             ></video>
                         </div>
 
@@ -118,7 +125,7 @@ export default function App() {
                                 rel="noopener noreferrer"
                                 className="inline-flex items-center justify-center gap-2 bg-green-500 text-white font-semibold px-4 py-2 rounded-full shadow hover:bg-green-600 transition text-sm"
                             >
-                                <FaWhatsapp className="text-lg" />
+                                <FaWhatsapp className="text-lg"/>
                                 Chat with a Training Advisor
                             </a>
                         </div>
