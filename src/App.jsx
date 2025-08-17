@@ -29,7 +29,7 @@ export default function App() {
                 <section className='grid grid-cols-1 md:grid-cols-2 gap-10 items-center mt-10'>
                     <div>
                         <span
-                            className="inline-block bg-yellow-500 text-black text-xs font-bold px-3 py-1 rounded-full uppercase mb-3">Next Intake: Sept 01, 2025</span>
+                            className="inline-block bg-yellow-500 text-black text-xs font-bold px-3 py-1 rounded-full uppercase mb-3">Next Intake: Soon</span>
                         <h2 className='text-4xl sm:text-5xl font-extrabold mb-6 text-yellow-400 leading-tight'>
                             Become a Certified Casino Dealer
                         </h2>
@@ -88,9 +88,8 @@ export default function App() {
                             <iframe
                                 src="https://docs.google.com/forms/d/e/1FAIpQLSctA_Ivwj8CYzffa-71objHOb6wSSdQEU9m2OhEGchFulBewQ/viewform?embedded=true"
                                 width="100%"
-                                height="450"
+                                className="rounded-lg min-h-[450px] sm:min-h-[550px]"
                                 title="Application Form"
-                                className="rounded-lg"
                             >
                                 Loading…
                             </iframe>
@@ -114,9 +113,11 @@ export default function App() {
                                 src={video}
                                 controls
                                 className="w-full rounded-lg shadow-lg border border-yellow-500"
-                                style={{maxHeight: '280px', objectFit: 'contain'}}
+                                style={{ maxHeight: '280px', objectFit: 'contain' }}
                                 preload="metadata"
-                            ></video>
+                            >
+                                Your browser does not support the video tag.
+                            </video>
                         </div>
 
                         <div className="bg-black p-4 sm:p-6 rounded-xl shadow-lg text-center border border-green-500">
