@@ -7,7 +7,7 @@ export default function App() {
     return (
         <div className='font-sans bg-gray-900 text-gray-100'>
             <header className='bg-black text-white py-6 shadow-lg border-b-4 border-yellow-500'>
-                <div className='max-w-6xl mx-auto px-6 flex items-center justify-between'>
+                <div className='max-w-6xl mx-auto px-6 flex flex-col sm:flex-row items-center sm:justify-between gap-4'>
                     <div className='flex items-center space-x-4'>
                         <img src={logo} alt='Flamirite Logo' className='h-12 w-auto'/>
                         <div>
@@ -79,9 +79,8 @@ export default function App() {
                 </section>
 
                 <section id="form" className="mt-20 grid grid-cols-1 md:grid-cols-2 gap-10">
-                    <div
-                        className="bg-black rounded-xl shadow-xl p-6 md:p-8 border border-yellow-500 flex justify-center">
-                        <div className="w-full max-w-xl">
+                    <div className="bg-black rounded-xl shadow-xl p-6 md:p-8 border border-yellow-500 flex justify-center">
+                        <div className="w-full sm:w-11/12 md:w-full max-w-3xl">
                             <h3 className="text-2xl sm:text-3xl font-extrabold mb-4 text-center text-yellow-400">
                                 🎰 Apply Now — Limited Seats Available
                             </h3>
@@ -95,6 +94,7 @@ export default function App() {
                             </iframe>
                         </div>
                     </div>
+
 
                     <div className="flex flex-col gap-6">
                         <div className="bg-black p-4 sm:p-6 rounded-xl shadow-lg border-l-4 border-yellow-500">
