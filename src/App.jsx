@@ -7,19 +7,17 @@ import LeadCaptureForm from "./LeadCaptureForm";
 export default function App() {
     return (
         <div className="font-sans bg-gray-900 text-gray-100">
-            <header className="bg-black text-white py-6 shadow-lg border-b-4 border-yellow-500">
-                <div className="max-w-6xl mx-auto px-6 flex items-center justify-between">
-                    <div className="flex items-center space-x-4">
-                        <img src={logo} alt="Flamirite Logo" className="h-12 w-auto" />
+            <header className='bg-black text-white py-6 shadow-lg border-b-4 border-yellow-500'>
+                <div className='max-w-6xl mx-auto px-6 flex flex-col sm:flex-row items-center sm:justify-between gap-4'>
+                    <div className='flex items-center space-x-4'>
+                        <img src={logo} alt='Flamirite Logo' className='h-12 w-auto'/>
                         <div>
-                            <h1 className="text-3xl font-extrabold text-yellow-400 tracking-widest">
-                                FLAMIRITE
-                            </h1>
-                            <p className="text-sm text-gray-400 italic">Your Career Starts Here</p>
+                            <h1 className='text-3xl font-extrabold text-yellow-400 tracking-widest'>FLAMIRITE</h1>
+                            <p className='text-sm text-gray-400 italic'>Your Career Starts Here</p>
                         </div>
                     </div>
                     <a
-                        href="#form"
+                        href='#form'
                         className="bg-yellow-500 hover:bg-yellow-600 text-black font-bold px-4 sm:px-6 py-2 sm:py-3 rounded-full transition text-sm sm:text-base"
                     >
                         Apply Now
