@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '/logo.jpg'
-import video from "/promo-video.mp4"
+import video from "/promo-video.webm"
 import {FaWhatsapp} from "react-icons/fa";
 
 export default function App() {
