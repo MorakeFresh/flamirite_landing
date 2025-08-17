@@ -29,7 +29,7 @@ export default function App() {
                 <section className="grid md:grid-cols-2 gap-10 items-center mt-10">
                     <div>
             <span className="inline-block bg-yellow-500 text-black text-xs font-bold px-3 py-1 rounded-full uppercase mb-3">
-              Next Intake: Sept 01, 2025
+              Next Intake: soon
             </span>
                         <h2 className="text-5xl font-extrabold mb-6 text-yellow-400 leading-tight">
                             Become a Certified Casino Dealer
@@ -66,6 +66,7 @@ export default function App() {
                         <p><strong>⏳ Duration:</strong> 12 Weeks</p>
                         <p><strong>🎓 Certificate:</strong> On Completion</p>
                         <p><strong>💰 Investment:</strong> R15,000 (payment plans available)</p>
+                        <p><strong>📞 Contact Details:</strong> 065 892 9232</p>
                     </div>
                     <div className="bg-black p-6 rounded-xl shadow-lg border border-gray-700">
                         <h3 className="text-xl font-bold mb-3 text-yellow-400 uppercase">Who This Is For</h3>
