@@ -66,7 +66,12 @@ export default function App() {
                         <p><strong>⏳ Duration:</strong> 12 Weeks</p>
                         <p><strong>🎓 Certificate:</strong> On Completion</p>
                         <p><strong>💰 Investment:</strong> R15,000 (payment plans available)</p>
-                        <p><strong>📞 Contact Details:</strong> 065 892 9232</p>
+                        <p>
+                            <strong>📞 Contact Details:</strong>{" "}
+                            <a href="tel:0658929232" className="text-yellow-400 hover:underline">
+                                065 892 9232
+                            </a>
+                        </p>
                     </div>
                     <div className="bg-black p-6 rounded-xl shadow-lg border border-gray-700">
                         <h3 className="text-xl font-bold mb-3 text-yellow-400 uppercase">Who This Is For</h3>
@@ -108,7 +113,7 @@ export default function App() {
                         <div className="bg-black p-6 rounded-xl shadow-lg text-center border border-green-500">
                             <p className="mb-3 font-semibold text-gray-200">Still have questions?</p>
                             <a
-                                href="https://wa.me/27112563879"
+                                href="https://wa.me/27658929232"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="inline-flex items-center justify-center gap-2 bg-green-500 text-white font-semibold px-4 py-2 rounded-full shadow hover:bg-green-600 transition text-sm"
