@@ -52,7 +52,7 @@ export default function App() {
                     </div>
                     <div>
                         <img
-                            src="/flamirite-hero.jpg"
+                            src="/Casino.jpg"
                             alt="casino dealer"
                             className="rounded-xl shadow-2xl border-4 border-yellow-500"
                         />

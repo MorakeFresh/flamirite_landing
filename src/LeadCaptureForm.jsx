@@ -22,7 +22,7 @@ export default function LeadCaptureForm() {
 
         try {
             const res = await fetch(
-                "https://script.google.com/macros/s/AKfycbyjJqOQaYKHcPPo84rOvFtBbYMxn-cj1znQtdiWEqWeV3dk0IFfg7cgsG2jnX7hSl6LoQ/exec",
+                "https://script.google.com/macros/s/AKfycbx-uJtnBFMJqz6_ySkeX-HdUFVwAvC_g6RoFvMQyMraQgN7jVtWDqCEbVUhwmzY2n6wtw/exec",
                 {
                     method: "POST",
                     body: JSON.stringify(formData),
